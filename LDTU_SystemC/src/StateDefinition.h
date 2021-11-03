@@ -1,0 +1,29 @@
+enum State {
+  Idle,
+  bas_0,
+  bas_1,
+  bas_2,
+  bas_3,
+  bas_4,
+  sign_0,
+  sign_1,
+  bas_0_bis,
+  bas_1_bis,
+  bas_2_bis,
+  bas_3_bis,
+  bas_4_bis,
+  sign_0_bis,
+  sign_1_bis,
+/////////////////////////////////////
+  bc0_0,
+  bc0_1,
+  bc0_2,
+  bc0_3,
+  bc0_4,
+  header,
+  header_b0,
+  bc0_s0,
+  header_s0,
+  bc0_s0_bis
+
+};

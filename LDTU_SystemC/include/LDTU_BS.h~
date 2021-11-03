@@ -1,0 +1,19 @@
+SC_MODULE(LDTU_BS) {
+  //inputs:
+  sc_in<bool> DCLK_1;
+  sc_in<bool>  DCLK_10;
+  sc_in<bool>  rst_b;
+  sc_in<sc_uint<12>>  DATA12_g01;
+  sc_in<sc_uint<12>>  DATA12_g10;
+  sc_in<sc_uint<2>>  shift_gain_10;
+  sc_in<sc_uint<8>> BSL_VAL_g01;
+  sc_in<sc_uint<8>>BSL_VAL_g10;
+  //outputs:
+  sc_out<sc_uint<12>> DATA_gain_01;
+  sc_out<sc_uint<12>>  DATA_gain_10;
+  sc_out<bool>  SeuError;
+
+  sc_unit<12> Synch_g01();
+  sc_unit<12> Synch_g10();
+
+}
